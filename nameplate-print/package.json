@@ -1,0 +1,26 @@
+{
+  "name": "nameplate-print",
+  "version": "1.0.0",
+  "description": "生成分组名牌/标识牌 Word 文档的 Node.js 工具。每个组名独占一页，大字体居中排版，适合直接打印张贴。",
+  "main": "scripts/generate_groups.js",
+  "bin": {
+    "nameplate-print": "scripts/generate_groups.js"
+  },
+  "scripts": {
+    "example": "node examples/basic-usage.js"
+  },
+  "keywords": [
+    "nameplate",
+    "group-sign",
+    "docx",
+    "print",
+    "trae-skill",
+    "名牌",
+    "打印"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.6.1"
+  }
+}
